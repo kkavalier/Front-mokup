@@ -12,7 +12,7 @@ body{ /* estilo del cuerpo de la pagina */
     min-height: 100vh;  
 }
 
-.icon { /* estilo del iconos derechos del header ? y ubicacion de la pagina */
+.icon { /* estilo del icono de wsp */
     position:fixed;
     right: 0;
     bottom: 0;
@@ -141,6 +141,84 @@ body{ /* estilo del cuerpo de la pagina */
     display: block;
     margin-top: 0;
     font-style: normal;
+}
+.prev-button,/* estilo del  los <> para cambio de imagen*/
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+.prev-button {
+    left: 70px;
+}
+
+.next-button {
+    right: 100px;
+}
+
+.prev-button:hover,
+.next-button:hover {
+    background-color: #ddd;
+}
+.slider-button-icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: auto;
+}
+
+.prev-button .slider-button-icon::before {
+    content: "<";
+}
+
+.next-button .slider-button-icon::before {
+    content: ">";
+}
+
+.slider-button-icon::before {
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.slider-button-background {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    display: inline-block;
+    margin: auto;
+}
+
+.slider-button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 80px;
+}
+
+.slider-button-container .prev-button {
+    margin-left: 10px;
+}
+
+.slider-button-container .next-button {
+    margin-right: 50px;
 }
 
 
