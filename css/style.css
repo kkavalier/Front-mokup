@@ -2,7 +2,7 @@
     font-family: falabella;
     src:url(../css/letra/PFBeauSansPro-Light.ttf);
 }
-body{
+body{ /* estilo del cuerpo de la pagina */
     margin:0%;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -12,7 +12,7 @@ body{
     min-height: 100vh;  
 }
 
-.icon {
+.icon { /* estilo del iconos derechos del header ? y ubicacion de la pagina */
     position:fixed;
     right: 0;
     bottom: 0;
@@ -24,7 +24,7 @@ body{
     z-index: 999;
 }
 
-.menuuno{
+.menuuno{ /* estilo del menu izquierdo del header */
     background: #262729;
     display: flex;
     align-items: center;
@@ -35,7 +35,7 @@ body{
     
     
 }
-.menu{
+.menu{ 
     padding-left: 1.00rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -75,7 +75,7 @@ body{
 
 }
 
-.logcuenta{
+.logcuenta{/* estilo del iconos izquierdos abajo delheader  y boton de mi cuenta */
     margin-top: 25px;
     display: flex;
     align-items: center;
@@ -112,7 +112,7 @@ body{
     order: 2px solid #2E8B57;
 }
 
-.menudos{
+.menudos{/* estilo del del menu  abajo del boton mi cuenta */
     list-style: none;
     justify-content:space-between;
     font-weight: bold;
@@ -128,7 +128,7 @@ body{
     margin-left:0;
     font-size: 0.80rem;  
 }
-.imagenUno {
+.imagenUno {/* estilo del banner con su boton y su escrito */
     margin: 0;
     height: 450px;
     width: 100%;
@@ -179,7 +179,7 @@ body{
 
     order: 2px solid #2E8B57;
 }  
-.tresCol{
+.tresCol{/* estilo de las primeras 3 columnas abajo del banner tambien los estilo del boton e imput */
     background-color: #F7F7F7;
     margin: 50px;
     height: 100px;
@@ -238,7 +238,7 @@ body{
     order: 2px solid #2E8B57;
 }  
 
-.tresCol2{
+.tresCol2{ /* estilo de las tres columnas con efectosde imagenes */
     background-color: white;
     margin: 50px;
     height: 400px;
@@ -287,7 +287,7 @@ body{
     border-color: #5c5757;
 }
 
-.dosCol{
+.dosCol{ /* estilo de las  7 columnas dobles con efectos de imagenes y botones */
     background-color: white;
     margin: 50px;
     height: 400px;
@@ -387,7 +387,7 @@ body{
     margin-right: 30px;
 }
 
-.col4{
+.col4{ /* estilo de las columnas del footer, imagenes, botones y link de este y ultimo parrafo */
     margin-top: 0;
     margin: 0;
     height: 100%;
