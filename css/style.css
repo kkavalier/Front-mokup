@@ -1,0 +1,459 @@
+@font-face{
+    font-family: falabella;
+    src:url(../css/letra/PFBeauSansPro-Light.ttf);
+}
+body{
+    margin:0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0;
+    font-family: falabella;
+    text-align: left;
+    min-height: 100vh;  
+}
+
+.icon {
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+    width: 100px;
+    background-color:transparent;
+    color: #fff;
+    padding: 10px;
+    z-index: 999;
+}
+
+.menuuno{
+    background: #262729;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 0;
+    padding-right: 2.0px;
+    padding: 3px;
+    
+    
+}
+.menu{
+    padding-left: 1.00rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: .75rem;
+    word-spacing: 1.00em;
+    margin: 0;
+    align-items: center;
+    
+
+}
+.menu li{
+    display: inline-block;
+    color: white;
+    align-items: center;
+    text-align: left;
+
+
+}
+
+.menuDer {
+    color: white;
+    display: block;
+    font-size: .75rem;
+    word-spacing: 0.10em;
+    padding: 0;
+    margin: 0;
+    padding-right: 20px;
+}
+.menuDer li{
+    display: inline-block;
+    align-items: center;
+    text-align: right;
+
+}
+.menuDer sup{
+    font-size: .75rem;
+
+}
+
+.logcuenta{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 120px;
+    justify-content:space-between;   
+}
+.logcuenta li{
+    display: inline-block;
+    align-items: center;
+    text-align: right;
+}
+.logcuenta button{
+
+    background-color: #38A121;
+    font-family: falabella;
+    color: white;
+    border-radius: 5px;
+    border:  1px;
+    border-color: #38A121;
+    font-size: 0.95rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}  
+.logcuenta button:hover{
+    background-color:rgb(56, 216, 56) ;
+}
+.logcuenta button:active{
+
+    order: 2px solid #2E8B57;
+}
+
+.menudos{
+    list-style: none;
+    justify-content:space-between;
+    font-weight: bold;
+}
+
+.menudosli{
+    list-style: none;
+    text-align: center;
+}
+.menudos li{
+    display: inline-block ;
+    margin-right:53px;
+    margin-left:0;
+    font-size: 0.80rem;  
+}
+.imagenUno {
+    margin: 0;
+    height: 450px;
+    width: 100%;
+    margin-right: 0;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7)200px, rgba(0,0,0,0)), url(../img/vitrina-desktop_feb.webp);
+    background-repeat: no-repeat;
+    background-position: left;
+    color: white;
+    text-align: left;
+    display: block;
+    margin-top: 0;
+    font-style: normal;
+}
+
+
+.imagenUno li{
+    padding-top: 50px;
+    margin-left:200px;
+    margin-top: 20px;
+    list-style: none;
+}
+.gennials{
+    display: block;
+    margin-top: 20px;
+    font-size: 48px;
+}   
+
+.botonBanner{
+    background-color: #38A121;
+    border-color: #38A121;
+    font-family: falabella;
+    color: white;
+    border-radius: 5px;
+    border:  none;
+    font-size: 0.95rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px; 
+    padding-right: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+} 
+.botonBanner:hover{
+    background-color:rgb(56, 216, 56) ;
+}
+.botonBanner:active{
+
+    order: 2px solid #2E8B57;
+}  
+.tresCol{
+    background-color: #F7F7F7;
+    margin: 50px;
+    height: 100px;
+    margin-left: 160px;
+    margin-right: 100px;
+    border: 1px solid #DDE1E5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.cleft{
+    margin-left: 90px;
+    font-size: 1.1rem;
+}
+
+.input{
+    font-family: falabella;
+    width: 300%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #DDE1E5;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.cright{
+    margin-right: 90px;
+}
+.botonSimular{
+    background-color: #38A121;
+    border-color: #38A121;
+    font-family: falabella;
+    color: white;
+    border-radius: 5px;
+    border:  none;
+    font-size: 0.95rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 50px; 
+    padding-right:50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-color: #38A121;
+    
+}  
+
+.botonSimular:hover{
+    background-color:rgb(56, 216, 56) ;
+}
+.botonSimular:active{
+
+    order: 2px solid #2E8B57;
+}  
+
+.tresCol2{
+    background-color: white;
+    margin: 50px;
+    height: 400px;
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid #DDE1E5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.cleft2{
+    margin-left: 50px;
+    font-size: 0.9rem;
+    text-align: left;
+}
+.ccenter2{
+    margin-top: 0;
+    padding-top: 0%;
+    font-size: 0.9rem;
+}
+
+.dosCol{
+    background-color: white;
+    margin: 50px;
+    height: 400px;
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.black{
+    background-color: #38A121;
+    border-color:#38A121 ;
+    font-family: falabella;
+    color: white;
+    border-radius: 5px;
+    border:  none;
+    font-size: 0.95rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px; 
+    padding-right:20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.black:hover{
+    background-color:rgb(56, 216, 56) ;
+}
+.black:active{
+
+    order: 2px solid #2E8B57;
+}  
+.coleft{
+    margin-left: 30px;
+}
+.coright{
+    margin-right: 30px;
+}
+
+.dosCol2{
+    background-color: white;
+    margin: 50px;
+    height: 400px;
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.black1{
+    background-color: #38A121;
+    border-color: #38A121;
+    font-family: falabella;
+    color: white;
+    border-radius: 5px;
+    border:  none;
+    font-size: 0.95rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px; 
+    padding-right:20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.black1:hover{
+    background-color:rgb(56, 216, 56) ;
+}
+.black1:active{
+
+    order: 2px solid #2E8B57;
+} 
+.coleft2{
+    margin-left: 30px;
+}
+.coright2{
+    margin-right: 30px;
+}
+
+.col4{
+    margin-top: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: #262729;
+    align-items: center;
+    justify-content:space-between;
+    padding-right: 0;
+    padding: 50px;
+    padding-top: 50px;
+    overflow: hidden;
+    
+}
+
+.ccenter4 a:hover{
+    background-color: #7a7d82;
+}
+.col{
+    display:inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.col4 li{
+    margin-left: 100px;
+    color: white;
+    align-items: center;
+    text-align:justify;
+    line-height: 2;
+    list-style: none;
+
+}
+.col4 h3{
+    margin-left: 140px;
+    color: white;
+    align-items: center;
+    margin-top: 10px;
+    text-align:justify;
+    padding-top: 0;
+    
+}
+
+.cright4{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    text-align: right; 
+    position: relative;
+}
+
+.cright40{
+    margin-top: -370px;
+    margin-right: -800px;
+    position: absolute;
+    transition: transform 3s ease;
+}
+.cright40:hover{
+    transform: scale(1.2);
+    filter: brightness(80%);
+    border-color: #5c5757;
+}  
+
+
+.cright41{
+    margin-top: -300px;
+    margin-right: -800px;
+    position: absolute;
+    transition: transform 3s ease;
+}
+
+.cright41:hover{
+    transform: scale(1.2);
+    filter: brightness(80%);
+    border-color: #5c5757;
+}
+.derechos{
+    
+    margin-left: 120px;
+    color: white;
+    align-items: center;
+    text-align:center;
+    line-height: 2;
+    list-style: none;
+    font-size: 80%;
+}
+
