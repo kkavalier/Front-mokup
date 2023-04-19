@@ -263,11 +263,28 @@ body{
     margin-left: 50px;
     font-size: 0.9rem;
     text-align: left;
+    transition: transform 3s ease;
+}
+.cleft2 img:hover{
+    transform: scale(1.2);
+    filter: brightness(100%);
+    border-color: #5c5757;
 }
 .ccenter2{
     margin-top: 0;
     padding-top: 0%;
     font-size: 0.9rem;
+    transition: transform 3s ease;
+}
+.ccenter2 img:hover{
+    transform: scale(1.2);
+    filter: brightness(100%);
+    border-color: #5c5757;
+}
+.cright2 img:hover{
+    transform: scale(1.2);
+    filter: brightness(100%);
+    border-color: #5c5757;
 }
 
 .dosCol{
